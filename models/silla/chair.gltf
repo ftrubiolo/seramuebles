@@ -1,0 +1,178 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.4.50",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "chair",
+            "translation" : [
+                0,
+                -9.83872541837627e-06,
+                0.0077369362115859985
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "chair_grp",
+            "scale" : [
+                100,
+                100,
+                100
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "m_chair.001",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "TEXCOORD_0" : 1,
+                        "NORMAL" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "chair_norm",
+            "uri" : "chair_norm.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "chair_ao-chair_rough-chair_metal",
+            "uri" : "chair_ao-chair_rough-chair_metal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "chair_basecolor",
+            "uri" : "chair_basecolor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 78026,
+            "max" : [
+                0.12316344678401947,
+                0.3980524241924286,
+                0.12597396969795227
+            ],
+            "min" : [
+                -0.12316344678401947,
+                9.83872541837627e-06,
+                -0.14144784212112427
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 78026,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 78026,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5125,
+            "count" : 353790,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 936312,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 624208,
+            "byteOffset" : 936312,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 936312,
+            "byteOffset" : 1560520,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1415160,
+            "byteOffset" : 2496832,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 3911992,
+            "uri" : "chair.bin"
+        }
+    ]
+}
